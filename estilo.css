@@ -26,28 +26,29 @@
   }
 
   nav li {
-    margin: 0 10px;
-    color: black
-  }
-
-  /* Add styles for the links in the navigation menu */
-  nav a {
+    margin: 0 5px;
+   }
+nav a {
+    font-family: Calibri;
+    font-size: 18px;
     text-decoration: underline;
-    color: black;
+    color: white;
   }
 
-  /* Add styles for the main content */
-  main {
+main {
     padding: 0px;
     text-align: center;
-  }
+    font-size: 10px
+    }
 
-  /* Add styles for the footer */
+
+  /* Add styles for the footer * 5
   footer {
     background-color:purple;
     padding: 0.1px;
     text-align: center;
     font-family: Arial;
-    font-size: 15px;
+    font-size: 10px;
+  
   }
 </style>
