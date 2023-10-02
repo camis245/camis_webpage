@@ -21,7 +21,7 @@
     padding: 0.2px;
     display: flex;
     justify-content: center;
-    backgroud-color: purple;
+    background-color: purple;
   
   }
 
@@ -44,7 +44,7 @@ main {
 
   /* Add styles for the footer * 5
   footer {
-    background-color:purple;
+    background-color: purple;
     padding: 0.1px;
     text-align: center;
     font-family: Arial;
