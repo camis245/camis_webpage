@@ -2,59 +2,58 @@
 <html lang="pt">
 <head>
     <meta charset="utf-8" />
-  	<link rel="stylesheet" type="text/css" href="estilo.css">
-    <title> Patinhas felizes-vet </title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">  
+    <title>Clinica veterinária</title>
 </head>
-<body> 
-    
+<body>
+   
     <header>
-      <h1 align="center" color="white">Clinica veterinária</h1>
-      <p align ="center" color="white">O melhor para o seu pet</p> 
+      <h1 align="center">Clinica veterinária</h1>
+      <p align ="center"> O melhor para o seu pet!
+</p>
     </header>
-    
-    <main>
+   
+    <main id = "principal">
       <nav>
         <ul>
           <li><a href="#"> Medicina e saúde </a></li>
-          <li><a href="#"> Banho e tosa </a></li>
-          <li><a href="#"> outlet </a></li>
+          <li><a href="./youtubelinks/youindex.html"> Banho e tosa </a></li>    
+          <li><a href="../youtubelinks/youindex.html"> outlet </a></li>
         </ul>
       </nav>
 
       <nav>
-      	<p>
-         <img src="1.png" width="300" height="200"><br
+      <p>
+         <img src="imagem estética.png" alt="MARCA" widht="450" height="300"><br>          
         </p>
       </nav>
        
     </main>
-     
-    <footer>
 
+<button type = "button"></button>
+    <footer>
     <nav>
         <ul>
-            <li> <button id="tema1button">tema 1</button> </li>
-            <li> <button id="tema2button">tema 2</button> </li>
+          <li> <button id="tema1button"> Tema 1 </button></li>
+          <li> <button id="tema2button"> Tema 2 </button></li>
         </ul>
-        
+
         <script>
             const changeColorButton2 = document.getElementById('tema2button');
-            // Adiciona evento de listener ao botao 
             changeColorButton2.addEventListener('click', () => {
-                // Muda a cor de fundo
-                document.body.style.backgroudColor = 'red' ;
-                document.header.style.backgroudColor = 'black';
+                document.body.style.backgroundColor = '#aeeca8';
+                document.header.style.backgroundColor = '#aeeca8';
             });
-             const changeColorButton1 = document.getElementById('tema1button');
-            // Adiciona evento de listener ao botao 
+            const changeColorButton1 = document.getElementById('tema1button');  
             changeColorButton1.addEventListener('click', () => {
-                // Muda a cor de fundo
-                document.body.style.backgroudColor = 'White' ;
-                document.header.style.backgroudColor = 'White';
+                document.body.style.backgroundColor = 'white';
+                document.header.style.backgroundColor = 'white';
             });
         </script>
-    </nav>
-       Vet. Camis
+      </nav>
+      Copyright © vet_medica e saúde
     </footer>
 </body>
 </html>
+
+
